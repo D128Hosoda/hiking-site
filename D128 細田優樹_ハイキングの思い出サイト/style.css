@@ -1,0 +1,19 @@
+body{
+    background-image: url('img/IMG_4288.JPG');
+    background-size: 2000px;
+}
+.enkei img{
+    border-radius:50%;
+    width: 400px;
+    height: 400px;
+}
+.sankaku img{  
+    clip-path: polygon(50% 0,100% 100%,0 100%);
+    width: 400px;
+    height: 400px;
+    border-color: black;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
